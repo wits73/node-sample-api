@@ -1,0 +1,37 @@
+{
+  "name": "sample-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha index.spec.js",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wits73/node-sample-api.git"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "TDD",
+    "Mocha",
+    "Should",
+    "SuperTest"
+  ],
+  "author": "Abraham",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wits73/node-sample-api/issues"
+  },
+  "homepage": "https://github.com/wits73/node-sample-api#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "morgan": "^1.9.0"
+  },
+  "devDependencies": {
+    "mocha": "^5.2.0",
+    "should": "^13.2.2",
+    "supertest": "^3.1.0"
+  }
+}
